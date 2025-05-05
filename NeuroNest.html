@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <div class="logo">
+        <img src="assets/download.jpg" alt="" />
+      </div>
+      <input
+        class="sidebar_input"
+        id="text-input"
+        type="text"
+        placeholder="Search For a product"
+      />
+      <button>Home</button>
+      <button>AI Devolpment</button>
+      <button>AI Tools</button>
+      <button>Prompt Engineering</button>
+    </div>
+    <div class="toggle">
+      <button id="toggle-btn" onclick="toggleSidebar()">
+        <span class="btn-text">Toggle Sidebar</span>
+      </button>
+    </div>
+
+    <div class="main-content">
+      <header id="title">Neuro Nest</header>
+      <div class="hero">
+        <h1>Unlock the Future of AI With Neuro Nest</h1>
+        <p>Explore cutting-edge tools, models, and strategies.</p>
+        <button class="btn-primary">
+          Click Here To Explore the Future of AI
+        </button>
+      </div>
+      <section class="features-section">
+        <h2>Key Features</h2>
+        <ul class="features-list">
+          <li>
+            <img
+              src="assets/download.jpg"
+              alt="AI Brain Icon"
+              class="feature-icon"
+            />
+            Advanced AI Models
+          </li>
+          <li>
+            <img
+              src="assets/image2.png"
+              alt="Tools Icon"
+              class="feature-icon"
+            />
+            Curated AI Tools
+          </li>
+          <li>
+            <img
+              src="assets/image3.png"
+              alt="Prompt Icon"
+              class="feature-icon"
+            />
+            Smart Prompt Engineering
+          </li>
+        </ul>
+      </section>
+
+      <div class="input-section">
+        <input
+          id="text-input"
+          type="text"
+          placeholder="Try our latest model : Neura"
+        />
+        <button id="submit">Submit prompt</button>
+      </div>
+      <div class="content-grid">
+        <div class="content-box">
+          <div class="badge-card">🔥 Hot</div>
+          <h3>AI Development</h3>
+          <img src="assets/image1.png" alt="Image 1" />
+          <div>
+            <p>
+              Learn all about our leading AI models — and discover their
+              capabilities
+            </p>
+            <button>Click Here For More</button>
+          </div>
+        </div>
+
+        <div class="content-box">
+          <div class="badge-card">🛠 New</div>
+          <h3>AI Tools</h3>
+          <img src="assets/image2.png" alt="Image 2" />
+          <p>
+            Explore curated tools to boost productivity, automate tasks, and
+            build smarter workflows.
+          </p>
+          <div><button>Click Here For More</button></div>
+        </div>
+
+        <div class="content-box">
+          <div class="badge-card">🧠 Updated</div>
+          <h3>Prompt Engineering</h3>
+          <img src="assets/image3.png" alt="Image 3" />
+          <p>
+            Prompt engineering is the art of crafting effective inputs to guide
+            AI models toward accurate, useful, or creative outputs.
+          </p>
+          <div><button>Click Here For More</button></div>
+        </div>
+      </div>
+      <footer>
+        <p>Neuro Nest © 2099</p>
+        <p>Follow us:</p>
+
+        <div id="SVG">
+          <!-- X  -->
+          <a
+            href="https://x.com/NeuroNestOffical"
+            target="_blank"
+            aria-label="X"
+          >
+            <svg
+              width="20"
+              height="20"
+              fill="white"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.08 3H16.4l-4.64 6.57L7.6 3H3.92l5.78 8.21L3 21h3.68l4.96-7.04L16.64 21H20.3l-6.18-8.87L20.08 3Z"
+              />
+            </svg>
+          </a>
+
+          <!-- Instagram -->
+          <a
+            href="https://instagram.com/NeuroNestOffical"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <svg
+              width="20"
+              height="20"
+              fill="white"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.33 3.608 1.306.975.976 1.243 2.243 1.306 3.608.058 1.266.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.33 2.633-1.306 3.608-.976.975-2.243 1.243-3.608 1.306-1.266.058-1.645.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.33-3.608-1.306-.975-.976-1.243-2.243-1.306-3.608C2.175 15.747 2.163 15.368 2.163 12s.012-3.584.07-4.85c.062-1.366.33-2.633 1.306-3.608.976-.975 2.243-1.243 3.608-1.306C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.736 0 8.332.013 7.052.072 5.771.132 4.708.412 3.758 1.362 2.808 2.312 2.528 3.375 2.468 4.656.013 8.736 0 9.14 0 12s.013 3.264.072 4.544c.06 1.281.34 2.344 1.29 3.294.95.95 2.013 1.23 3.294 1.29 1.28.059 1.684.072 4.544.072s3.264-.013 4.544-.072c1.281-.06 2.344-.34 3.294-1.29.95-.95 1.23-2.013 1.29-3.294.059-1.28.072-1.684.072-4.544s-.013-3.264-.072-4.544c-.06-1.281-.34-2.344-1.29-3.294C19.88.412 18.817.132 17.536.072 16.256.013 15.852 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"
+              />
+            </svg>
+          </a>
+
+          <!-- YouTube -->
+          <a
+            href="https://youtube.com/@NeuroNestOffical"
+            target="_blank"
+            aria-label="YouTube"
+          >
+            <svg
+              width="20"
+              height="20"
+              fill="white"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.498 6.186a2.958 2.958 0 0 0-2.08-2.088C19.555 3.5 12 3.5 12 3.5s-7.555 0-9.418.598A2.958 2.958 0 0 0 .502 6.186C0 8.063 0 12 0 12s0 3.937.502 5.814a2.958 2.958 0 0 0 2.08 2.088C4.445 20.5 12 20.5 12 20.5s7.555 0 9.418-.598a2.958 2.958 0 0 0 2.08-2.088C24 15.937 24 12 24 12s0-3.937-.502-5.814zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"
+              />
+            </svg>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
